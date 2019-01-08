@@ -2,8 +2,10 @@
 
 namespace PartyInviter.Models
 {
+
     public class GuestResponse
     {
+
         [Required(ErrorMessage = "Please enter your name")]
         public string Name { get; set; }
 
